@@ -1,6 +1,6 @@
-import { Request, Response } from 'express';
-import { usuarios } from '../../fakeData/usuarios.json';
-import { User } from '../../models/User'
+import { Request, Response } from "express";
+import { usuarios } from "../../fakeData/usuarios.json";
+import { User } from "../../models/User"
 
 //Create user
 export default (req: Request, res: Response) => {

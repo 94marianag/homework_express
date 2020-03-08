@@ -1,4 +1,3 @@
-
 import express, { Router } from "express";
 import createEmpl from "../controllersEmpleados/create";
 import deleteEmpl from "../controllersEmpleados/delete";
@@ -22,6 +21,5 @@ router.get("/list", listEmpl);
 
 //Update empleados
 router.put("/update", updateEmpl);
-
 
 export default router;

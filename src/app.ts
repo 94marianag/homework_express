@@ -1,4 +1,4 @@
-import express, {Application } from "express";
+import express, { Application } from "express";
 import bodyParser from "body-parser";
 import userRouters from "./routes/userRoutes";
 import empleadosRouters from "./routes/empleadosRoutes";
@@ -18,6 +18,5 @@ app.use("/employees", empleadosRouters);
 
 //Auth routes
 app.use("/auth", auth);
-
 
 export default app;

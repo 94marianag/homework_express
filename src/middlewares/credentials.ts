@@ -8,5 +8,6 @@ export default (req: Request, res: Response, next: NextFunction) => {
     if(validation.error){
         return res.status(400).json(validation.error.details);
     }
+
     next();
-}
+};

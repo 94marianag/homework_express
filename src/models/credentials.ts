@@ -1,8 +1,8 @@
-import joi from '@hapi/joi';
+import joi from "@hapi/joi";
 
 export type Credentials = {
-    login: string,
-    password: string
+    login: string;
+    password: string;
 }
 
 export const CredentialsSchema = joi.object().keys({

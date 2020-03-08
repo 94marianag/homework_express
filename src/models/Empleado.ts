@@ -1,4 +1,4 @@
-import joi from '@hapi/joi';
+import joi from "@hapi/joi";
 
 export type Empleado = {
     id: string;
