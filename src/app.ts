@@ -4,6 +4,7 @@ import userRouters from "./routes/userRoutes";
 import empleadosRouters from "./routes/empleadosRoutes";
 import auth from "./routes/authRoutes";
 import tokenValidatior from "./middlewares/token";
+
 const app: Application = express();
 
 // body parser
